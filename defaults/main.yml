@@ -1,0 +1,19 @@
+---
+# defaults file for snowsql
+snowsql_ver:
+  major: 1
+  minor: 2
+  patch: 21
+snowsql_os: linux
+snowsql_arch: x86_64
+snowsql_install_dir: /usr/local/bin
+snowsql_profile_sh: /etc/profile.d/snowsql.sh
+snowsql_mirror: https://sfc-repo.snowflakecomputing.com/snowsql/bootstrap
+snowsql_checksums:
+  '1.2.21':
+    # https://sfc-repo.snowflakecomputing.com/snowsql/bootstrap/1.2/linux_x86_64/snowsql-1.2.21-linux_x86_64.bash
+    linux_x86_64: sha256:82bed0793ca88787728573d006723f38fc4fe5b4bd367cebde24e2660ceb397c
+    # https://sfc-repo.snowflakecomputing.com/snowsql/bootstrap/1.2/darwin_x86_64/snowsql-1.2.21-darwin_x86_64.pkg
+    darwin_x86_64: sha256:ad11cf3b32a99ba6281536e375a71ba8c952371601a071481429810f0d266fb0
+    # https://sfc-repo.snowflakecomputing.com/snowsql/bootstrap/1.2/windows_x86_64/snowsql-1.2.21-windows_x86_64.msi
+    windows_x86_64: sha256:0483e72065edd4ad52838341804536abe97a82080c5c2d495022f976d970f31a

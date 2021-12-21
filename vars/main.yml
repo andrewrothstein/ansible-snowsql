@@ -1,0 +1,11 @@
+---
+# vars file for snowsql
+snowsql_major_minor_ver: '{{ snowsql_ver.major }}.{{ snowsql_ver.minor }}'
+snowsql_semver: '{{ snowsql_major_minor_ver }}.{{ snowsql_ver.patch }}'
+snowsql_platform: '{{ snowsql_os }}_{{ snowsql_arch }}'
+snowsql_installer: snowsql-{{ snowsql_semver }}-{{ snowsql_platform }}.bash
+snowsql_tmp_installer: /tmp/{{ snowsql_installer }}
+snowsql_url: '{{ snowsql_mirror }}/{{ snowsql_major_minor_ver }}/{{ snowsql_platform }}/{{ snowsql_installer }}'
+snowsql_checksum: '{{ snowsql_checksums[snowsql_semver][snowsql_platform] }}'
+
+snowsql_install_exe: '{{ snowsql_install_dir }}/snowsql'

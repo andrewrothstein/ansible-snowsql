@@ -1,0 +1,36 @@
+---
+galaxy_info:
+  author: Andrew Rothstein
+  description: installs the SnowFlake snowsql cli
+  company: BlackRock Financial Management
+  license:
+    - MIT
+  min_ansible_version: 2.0
+  platforms:
+    - name: Archlinux
+      versions:
+        - all
+    - name: Debian
+      versions:
+        - bullseye
+        - buster
+    - name: EL
+      versions:
+        - 8
+    - name: Fedora
+      versions:
+        - 34
+        - 35
+    - name: Ubuntu
+      versions:
+        - bionic
+        - focal
+  galaxy_tags:
+    - development
+  role_name: snowsql
+
+dependencies:
+  - role: andrewrothstein.unarchive-deps
+    version: v1.2.2
+  - role: andrewrothstein.bash
+    version: v1.1.8
