@@ -36,4 +36,5 @@ dl_ver() {
     dl $major_ver $minor_ver $patch_ver windows x86_64 msi
 }
 
-dl_ver 1 2 21
+dl_ver 1 2 22
+dl_ver 1 2 23

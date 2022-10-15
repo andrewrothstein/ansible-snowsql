@@ -5,6 +5,6 @@
   tasks:
     - command: /usr/local/bin/snowsql --version
       register: snowsql_test_output
-    - name: snowsql --versioin
+    - name: snowsql --version
       debug:
         msg: '{{ snowsql_test_output.stdout }}'

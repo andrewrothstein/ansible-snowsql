@@ -3,9 +3,7 @@
 snowsql_ver:
   major: 1
   minor: 2
-  patch: 21
-snowsql_os: linux
-snowsql_arch: x86_64
+  patch: 23
 snowsql_install_dir: /usr/local/bin
 snowsql_profile_sh: /etc/profile.d/snowsql.sh
 snowsql_mirror: https://sfc-repo.snowflakecomputing.com/snowsql/bootstrap
@@ -17,3 +15,17 @@ snowsql_checksums:
     darwin_x86_64: sha256:ad11cf3b32a99ba6281536e375a71ba8c952371601a071481429810f0d266fb0
     # https://sfc-repo.snowflakecomputing.com/snowsql/bootstrap/1.2/windows_x86_64/snowsql-1.2.21-windows_x86_64.msi
     windows_x86_64: sha256:0483e72065edd4ad52838341804536abe97a82080c5c2d495022f976d970f31a
+  '1.2.22':
+    # https://sfc-repo.snowflakecomputing.com/snowsql/bootstrap/1.2/linux_x86_64/snowsql-1.2.22-linux_x86_64.bash
+    linux_x86_64: sha256:e52bb12b952e2700d3f0ac15d640a94351d27e735adaccdb67aa977f233d244e
+    # https://sfc-repo.snowflakecomputing.com/snowsql/bootstrap/1.2/darwin_x86_64/snowsql-1.2.22-darwin_x86_64.pkg
+    darwin_x86_64: sha256:61502d6b51af97718c0f4037c9be614295602196a7b9eaed12b05cb75d4c0d6f
+    # https://sfc-repo.snowflakecomputing.com/snowsql/bootstrap/1.2/windows_x86_64/snowsql-1.2.22-windows_x86_64.msi
+    windows_x86_64: sha256:7abc1cf8f8dde0c45fbc7e4210cc03d28a60aee2e7164ef7425d024563a64cbd
+  '1.2.23':
+    # https://sfc-repo.snowflakecomputing.com/snowsql/bootstrap/1.2/linux_x86_64/snowsql-1.2.23-linux_x86_64.bash
+    linux_x86_64: sha256:e0222ed5f75a0e678a1d9a5240dc51a300b8e364d5f209040b43b7afbdbee06d
+    # https://sfc-repo.snowflakecomputing.com/snowsql/bootstrap/1.2/darwin_x86_64/snowsql-1.2.23-darwin_x86_64.pkg
+    darwin_x86_64: sha256:4499e747bd57a1e7bc35188bca4808e97a98d93d9480ea0cf7e0a82a87b59e60
+    # https://sfc-repo.snowflakecomputing.com/snowsql/bootstrap/1.2/windows_x86_64/snowsql-1.2.23-windows_x86_64.msi
+    windows_x86_64: sha256:307ba45ff251e3d51a3c20f8adc672e69c999f9960c4b402e7e005a9f66911bb
