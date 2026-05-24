@@ -1,7 +1,7 @@
 ---
 # vars file for snowsql
-snowsql_os: '{{ ansible_system | lower }}'
-snowsql_arch: '{{ ansible_architecture }}'
+snowsql_os: '{{ ansible_facts["system"] | lower }}'
+snowsql_arch: '{{ ansible_facts["architecture"] }}'
 snowsql_major_minor_ver: '{{ snowsql_ver.major }}.{{ snowsql_ver.minor }}'
 snowsql_semver: '{{ snowsql_major_minor_ver }}.{{ snowsql_ver.patch }}'
 snowsql_platform: '{{ snowsql_os }}_{{ snowsql_arch }}'

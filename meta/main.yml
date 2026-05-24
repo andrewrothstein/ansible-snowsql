@@ -7,23 +7,31 @@ galaxy_info:
     - MIT
   min_ansible_version: 2.0
   platforms:
+    - name: Alpine
+      versions:
+        - all
+    - name: ArchLinux
+      versions:
+        - all
     - name: Debian
       versions:
-        - bullseye
-        - buster
+        - bookworm
+        - trixie
     - name: EL
       versions:
-        - 8
-        - 9
+        - '10'
+        - '9'
     - name: Fedora
       versions:
-        - 36
-        - 37
+        - all
+    - name: Kali
+      versions:
+        - all
     - name: Ubuntu
       versions:
-        - bionic
-        - focal
         - jammy
+        - noble
   galaxy_tags:
     - development
   role_name: snowsql
+  namespace: andrewrothstein
